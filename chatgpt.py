@@ -7,7 +7,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.schema import HumanMessage, AIMessage
 from dotenv import load_dotenv
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR API-KEY"
 
 def make_chain():
     model = ChatOpenAI(
